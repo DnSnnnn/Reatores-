@@ -92,9 +92,3 @@ plt.ylabel("Fao/(Ra)",color="black") # Eixo Vertical
 plt.plot(x,FaoRa,"--",color="springgreen")
 plt.grid(True)
 plt.show()
-"""print(T)
-print(x)
-print(k)
-print()
-print(ra)
-print(FaoRa)"""
