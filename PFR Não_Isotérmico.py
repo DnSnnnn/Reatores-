@@ -49,7 +49,7 @@ Y0 = [0, T0]
 
 
 #colors = 'rgbk' 
-for i, Fi0 in enumerate([100,15,0.0]):
+for i, Fi0 in enumerate([10,2.5,0.0]):
     sol = odeint(adiabatic_pfr, Y0, V, args=(Fi0,))
 
     X = sol[:, 0]
